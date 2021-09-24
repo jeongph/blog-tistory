@@ -9,4 +9,4 @@
 
 ---
 
-Check out the list of Posts [here](./Posts)
+Check out the list of Posts [here](./posts)
