@@ -1,48 +1,11 @@
 <!doctype html>
 <html lang="ko">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122616816-3"></script>
-<script data-ad-client="ca-pub-6789578604707320" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-122616816-3');
-</script>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
 <title>[##_page_title_##]</title>
 <link rel="stylesheet" href="./style.css">
 <script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
-<script src="https://kit.fontawesome.com/02bd41dbca.js" crossorigin="anonymous"></script>
-	<style>
-		.box-icon{
-			margin: 20px 10px;
-			color: #000000;
-			text-shadow: 5px 5px 5px #ccc;
-			font-size: 2.0em;
-		}
-		
-		.t_menu_page {
-			text-align:center;
-		}
-		
-		.link_tit {
-			margin-top: 15px;
-		}
-	
-		#gnb_other_link {
-			text-align:center;
-		}
-		
-		img {
-			box-shadow: 6px 6px 6px #ccc;
-		}
-	</style>
-	<script data-ad-client="ca-pub-6789578604707320" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body id="[##_body_id_##]" class="<s_if_var_color-type>[##_var_color-type_##]</s_if_var_color-type><s_if_var_post-type> [##_var_post-type_##]</s_if_var_post-type><s_if_var_view-more> paging-view-more</s_if_var_view-more>">
 <s_t3>
@@ -51,21 +14,10 @@
 </div>
 <div id="wrap">
 	<header id="header">
-		<h1 id="title">
-			<a href="[##_blog_link_##]">[##_title_##]</a>
-			<br>
-			<!-- <small id="title_small">빈이의 개발 블로그</small> -->
-		</h1>
-		
+		<h1><a href="[##_blog_link_##]">[##_title_##]</a></h1>
 		<button type="button" class="mobile-menu"><span>메뉴</span></button>
 		<div class="menu">
-			<div id="gnb_other_link">
-				<a class="box-icon fab fa-github-square fa-2x" href="https://github.com/bin-e" title="Github" target="_blank" style="text-decoration:none"></a>
-				<a class="box-icon fas fa-pen-square fa-2x" href="https://brunch.co.kr/@bin-e" title="Brunch" target="_blank" style="text-decoration:none"></a>
-				<a class="box-icon fas fa-rss-square fa-2x" href="https://bin-e.tistory.com/rss" title="RSS" target="_blank" style="text-decoration:none"></a>
-			</div>
 			<nav id="gnb">
-				[##_blog_menu_##]
 				[##_category_list_##]
 			</nav>
 			<div class="social-link">
@@ -78,13 +30,15 @@
 		</div>
 		<div class="search">
 			<s_search>
-					<input type="text" name="[##_search_name_##]" value="[##_search_text_##]" placeholder="검색내용을 입력하세요." onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }">
+				<label for="[##_search_name_##]" class="screen_out">블로그 내 검색</label>
+				<input id="[##_search_name_##]" type="text" name="[##_search_name_##]" value="[##_search_text_##]" placeholder="검색내용을 입력하세요." onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }">
 					<button type="submit" onclick="[##_search_onclick_submit_##]">검색</button>
 				</s_search>
 		</div>
 	</header>
 	<hr>
 	<section class="container">
+		[##_revenue_list_upper_##]
 		<article id="content">
 			<s_cover_group>
 					<s_cover_rep>
@@ -400,7 +354,8 @@
 												</div>
 											</div>
 										</s_rp_member>
-										<textarea name="[##_rp_input_comment_##]" cols="" rows="4" placeholder="여러분의 소중한 댓글을 입력해주세요."></textarea>
+										<label for="[##_rp_input_comment_##]" class="screen_out">댓글</label>
+										<textarea id="[##_rp_input_comment_##]" name="[##_rp_input_comment_##]" cols="" rows="4" placeholder="여러분의 소중한 댓글을 입력해주세요."></textarea>
 										<div class="submit">
 											<button type="submit" class="btn" onclick="[##_rp_onclick_submit_##]">댓글달기</button>
 										</div>
@@ -501,85 +456,9 @@
 			</s_paging>
 
 		</article>
-	<aside id="aside">
-			<div class="inner">
-				<div class="sidebar-1">
-					<s_sidebar>
-						<s_sidebar_element>
-							<!-- 공지사항 -->
-							<s_rct_notice>
-								<div class="posts">
-									<h2>공지사항</h2>
-									<ul>
-										<s_rct_notice_rep>
-											<li><a href="[##_notice_rep_link_##]" class="link_board">[##_notice_rep_title_##]</a></li>
-										</s_rct_notice_rep>
-									</ul>
-								</div>
-							</s_rct_notice>
-						</s_sidebar_element>
-						<s_sidebar_element>
-							<!-- 최근 포스트 -->
-							<div class="posts">
-								<h2>최근 포스트</h2>
-								<ul>
-									<s_rctps_rep>
-									<li><a href="[##_rctps_rep_link_##]">[##_rctps_rep_title_##]</a></li>
-									</s_rctps_rep>
-								</ul>
-							</div>
-						</s_sidebar_element>
-					</s_sidebar>
-				</div>
-
-				<div class="sidebar-2">
-						<s_sidebar>
-							<s_sidebar_element>
-								<!-- 태그 -->
-								<div class="tags">
-									<h2>태그</h2>
-									<div class="items">
-										<s_random_tags>
-											<a href="[##_tag_link_##]">[##_tag_name_##]</a>
-										</s_random_tags>
-									</div>
-									<a href="/tag" class="more">더보기</a>
-								</div>
-							</s_sidebar_element>
-						</s_sidebar>
-				</div>
-
-				<div class="sidebar-3">
-					<s_sidebar>
-						<s_sidebar_element>
-							<!-- 검색 -->
-							<div class="search">
-								<h2>검색</h2>
-								<s_search>
-									<fieldset>
-										<input type="text" name="[##_search_name_##]" value="" placeholder="검색내용을 입력하세요." onkeypress="if (event.keyCode == 13 ) { [##_search_onclick_submit_##] }">
-										<button type="button" onclick="[##_search_onclick_submit_##]">검색</button>
-									</fieldset>
-								</s_search>
-							</div>
-						</s_sidebar_element>
-						<s_sidebar_element>
-							<!-- 전체 방문자 -->
-							<div class="count">
-								<h2>전체 방문자</h2>
-								<p class="total">[##_count_total_##]</p>
-								<ul>
-									<li><strong>오늘</strong>[##_count_today_##]</li>
-									<li><strong>어제</strong>[##_count_yesterday_##]</li>
-								</ul>
-							</div>
-						</s_sidebar_element>
-					</s_sidebar>
-				</div>
-			</div>
-		</aside>
 	</section>
 	<hr>
+	[##_revenue_list_lower_##]
 	<footer id="footer">
 		<p class="copyright">DESIGN BY <a href="#">TISTORY</a> <a href="[##_owner_url_##]" class="admin">관리자</a></p>
 	</footer>
