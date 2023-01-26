@@ -287,8 +287,8 @@ hr {
 	color: #1a1a1a;
 }
 #header h1 a {
-	font-size: 1.8em;
-	font-family: 'Chilanka', cursive;
+/* 	font-size: 1.8em; */
+/* 	font-family: 'Chilanka', cursive; */
 	display: inline-block;
 	text-decoration: none;
 	vertical-align: top;
