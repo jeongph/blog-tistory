@@ -25,6 +25,29 @@
 @import url('//fonts.googleapis.com/css?family=Nanum+Myeongjo');
 @import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
 
+.box-icon{
+	margin: 20px 10px;
+	color: #000000;
+	text-shadow: 5px 5px 5px #ccc;
+	font-size: 2.0em;
+}
+
+.t_menu_page {
+	text-align:center;
+}
+
+.link_tit {
+	margin-top: 15px;
+}
+
+#gnb_other_link {
+	text-align:center;
+}
+
+img {
+	box-shadow: 6px 6px 6px #ccc;
+}
+
 /* Type Selector Reset */
 #aside {
 	margin-top: 120px;
