@@ -1,5 +1,5 @@
 - 기간: 2023/01/15 ~ 2023/01/21
-- 이 글은 내용을 정리하고 주관적인 의견을 첨가한 2차 창작물이며, 각 피드의 저작권은 각 원작자에게 있습니다.
+- 이 글은 내용을 정리하고 주관적인 의견을 작성한 2차 창작물이며, 각 피드의 저작권은 각 원작자에게 있습니다.
 
 ![<a href="[https://pixabay.com/ko//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4831871](https://pixabay.com/ko//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4831871)">Pixabay</a>로부터 입수된 <a href="[https://pixabay.com/ko/users/youngu-10912057/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4831871](https://pixabay.com/ko/users/youngu-10912057/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4831871)">윤구 최</a>님의 이미지 입니다.](https://snz04pap002files.storage.live.com/y4mn9Rn7YysLHzmi8tMA_W2zNMOs9eC-OlY2McaEwf_k58FTQyy6jufAKqBDTUjKdW9VMXJeAjsRrG2O6FuSAWRqsR4otWTS9g42waSok4mSMalIrAwhSWWbtvlUbrSPylO3A8dIc1m-Fekq73KRxizIHgoP8vs2eZWl3Mp8hqfAUTxYVnn_wy3FMzPt0tOWoB3ronwoVlHFMNKJ9FEFLDQJg/han-river-4831871_1920.jpg?psid=1&width=1920&height=1280)
 
