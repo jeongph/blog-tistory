@@ -12,6 +12,3 @@
 - https://pixabay.com/
 - https://unsplash.com/ko
 
----
-
-Check out the list of Posts [here](./posts)
